@@ -1,0 +1,26 @@
+dialog {
+    border: none;
+    border-radius: 20px;
+    padding: 16px;
+    margin: auto;
+    position: relative;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.btn-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.btn-close:hover {
+    background-color: rgb(138, 162, 216);
+    color: white;
+}
